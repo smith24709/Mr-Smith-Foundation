@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr Smith Foundation Giveaways</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f8fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(to right, #0057b7, #0080ff);
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.8em;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.3em;
+        }
+        header img {
+            width: 100px;
+            margin-bottom: 10px;
+        }
+        nav {
+            background-color: #003f87;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 25px;
+            display: block;
+        }
+        nav a:hover {
+            background-color: #00295c;
+        }
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        section {
+            margin-bottom: 50px;
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        }
+        section h2 {
+            color: #0057b7;
+            border-bottom: 2px solid #0057b7;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+        }
+        .giveaway {
+            background-color: #e6f0ff;
+            padding: 15px;
+            margin: 15px 0;
+            border-left: 5px solid #0057b7;
+            border-radius: 5px;
+        }
+        .donate-button {
+            display: inline-block;
+            background-color: #ff6b6b;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 15px;
+            transition: background-color 0.3s;
+        }
+        .donate-button:hover {
+            background-color: #ff3b3b;
+        }
+        footer {
+            text-align: center;
+            padding: 25px;
+            background-color: #003f87;
+            color: white;
+        }
+        footer a {
+            color: #a8c6ff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://via.placeholder.com/100?text=Logo" alt="Mr Smith Foundation Logo">
+        <h1>Mr Smith Foundation</h1>
+        <p>Helping Those in Need – One Giveaway at a Time</p>
+    </header>
+    <nav>
+        <a href="#giveaways">Giveaways</a>
+        <a href="#mission">Mission</a>
+        <a href="#apply">Apply for Support</a>
+        <a href="#donate">Donate</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="giveaways">
+            <h2>Recent Giveaways</h2>
+            <div class="giveaway">
+                <h3>Emergency Support Fund</h3>
+                <p>Direct cash assistance provided to families facing financial hardship, prioritizing single parents, seniors, and low-income households.</p>
+            </div>
+            <div class="giveaway">
+                <h3>Youth Assistance Grant</h3>
+                <p>Educational support for students, including help with fees, books, and supplies.</p>
+            </div>
+            <div class="giveaway">
+                <h3>Community Relief Giveaway</h3>
+                <p>Direct support to individuals affected by sudden financial crises or unemployment.</p>
+            </div>
+        </section>
+
+        <section id="mission">
+            <h2>Our Mission</h2>
+            <p>The Mr Smith Foundation is committed to bringing hope and opportunity to those who need it most. Mr Smith believes that no act of kindness is too small — and giving should never stop.</p>
+        </section>
+
+        <section id="apply">
+            <h2>Apply for Support</h2>
+            <p>To request assistance, please provide:</p>
+            <ul>
+                <li>Full name</li>
+                <li>Brief explanation of need</li>
+                <li>Preferred method of contact</li>
+            </ul>
+            <p><strong>Email:</strong> support@mrsmithfoundation.org</p>
+            <p><em>Note: All giveaways are free of charge. No fees required.</em></p>
+        </section>
+
+        <section id="donate">
+            <h2>Support Our Cause</h2>
+            <p>Your contribution helps us reach more people in need and continue our giveaways. Every donation, big or small, makes a difference.</p>
+            <a href="#" class="donate-button">Donate Now</a>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you have questions or wish to get involved, contact us at:</p>
+            <p><strong>Email:</strong> info@mrsmithfoundation.org</p>
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>Address:</strong> 123 Charity Lane, Hope City, HC 00001</p>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 Mr Smith Foundation | <a href="#contact">Contact Us</a>
+    </footer>
+</body>
+</html>
